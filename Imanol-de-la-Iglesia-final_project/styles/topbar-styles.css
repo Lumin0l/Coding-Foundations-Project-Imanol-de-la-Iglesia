@@ -1,0 +1,112 @@
+/* 
+
+Navigation styles 
+
+
+/* Common nav-bar */
+.navigation-wrapper {
+	height: 20px;
+	background-color: black;
+	/* Flexbox container */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 45px;
+	padding-bottom: 45px;
+	padding-right: 10px;
+	padding-left: 20px;
+}
+
+/* Left Column */
+.navigation-wrapper > .left-column img {
+	width: 225px;
+	height: 100%;
+}
+
+/* Center Column */
+.navigation-wrapper > .center-column {
+	display: grid;
+	grid-template-rows: repeat(2);
+	gap: 10px;
+	grid-auto-flow: row;
+	margin-left: 50px;
+}
+
+.navigation-wrapper > .center-column > .center-top {
+	color:  rgb(255, 221, 64);
+}
+
+.navigation-wrapper > .center-column > .center-bottom {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 15px
+}
+
+.navigation-wrapper > .center-column > .center-bottom > .nav-link a {
+	color: white;
+	text-decoration: none;
+}
+
+/* Spark button and chevron */
+.navigation-wrapper > .center-column > .center-bottom > .spark-button {
+	margin-left: 30px;       
+}
+
+.navigation-wrapper > .center-column > .center-bottom > .spark-button > .btn {
+	background-color: black;
+	color: rgb(179, 179, 179);
+	font-size: 1em;
+}
+
+.navigation-wrapper > .center-column > .center-bottom > .spark-button i {
+	background-color: black;
+	color: rgb(179, 179, 179);
+	font-size: 0.8em;
+}
+
+/* Right Column */
+.navigation-wrapper > .right-column {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 15px;
+	margin-left: 200px;
+}
+
+.navigation-wrapper > .right-column > .create-button > .btn {
+	padding: 1rem 1.25rem;
+	border-radius: 4px;
+	text-align: center;
+	background-color: rgb(71, 71, 83);
+	font-size: 1rem;
+	color: white;
+}
+
+.navigation-wrapper > .right-column > .create-button > .btn i {
+	font-size: 1.2rem;
+	color: #47cf73;
+}
+
+.navigation-wrapper > .right-column > .magnifying-glass {
+	font-size: 2.5rem;
+	color: rgb(71, 71, 83);
+}
+
+.navigation-wrapper > .right-column > .login-button > .btn {
+	padding: 1rem 1.25rem;
+	border-radius: 4px;
+	text-align: center;
+	background-color: rgb(71, 71, 83);
+	font-size: 1rem;
+	color: white;
+}
+
+.navigation-wrapper > .right-column > .signin-button > .btn {
+	padding: 1rem 1.25rem;
+	border-radius: 4px;
+	text-align: center;
+	background-color: rgb(71, 71, 83);
+	font-size: 1rem;
+	color: white;
+}

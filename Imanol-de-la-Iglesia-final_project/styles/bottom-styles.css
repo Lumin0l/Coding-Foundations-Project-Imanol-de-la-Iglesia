@@ -1,0 +1,33 @@
+/* 
+
+Bottom
+
+*/
+.bottom-wrapper {
+	height: 20px;
+	background-color: gray;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.bottom-wrapper {
+	font-size: 1.8em;
+	color: white;
+	border: solid 2px;
+	border-color: #c7c9d3;
+}
+
+.bottom-span {
+	font-size: 2.25rem;
+}
+
+hr {
+	height: 80px;
+	border: none;
+	border-left: 2px solid #c7c9d3;
+}

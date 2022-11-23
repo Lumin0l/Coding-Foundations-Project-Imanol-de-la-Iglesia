@@ -1,0 +1,89 @@
+/* 
+
+Mid Screen 
+
+*/
+
+/* Common */
+.mid-screen-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding-top: 30px;
+}
+
+.mid-screen-wrapper > .mid-screen {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 200px;
+}
+
+.mid-screen-wrapper > .mid-screen {
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Text */
+.mid-screen-wrapper > .mid-screen > .text {
+	padding-left: 70px;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .text1 {
+	font-size: 4em;
+	color: white;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .text1 i {
+	color: #ffcb4c;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .text2 {
+	padding-top: 20px;
+	font-size: 3.5em;
+	color: #c7c9d3;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .buttons {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding-top: 20px;
+	gap: 15px;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .buttons > .green-button > .btn {
+	border-radius: 8px;
+	border: none;
+	padding: 1rem 1.25rem;
+	background-color: #47cf73;
+	text-align: center;
+	font-size: 4rem;
+	color: black;
+}
+
+.mid-screen-wrapper > .mid-screen > .text > .buttons > .black-button > .btn {
+	border-radius: 8px;
+	border: none;
+	padding: 1rem 1.25rem;
+	background-color: black;
+	text-align: center;
+	font-size: 4rem;
+	color: white;
+}
+
+/* Picture */
+.mid-screen-wrapper > .mid-screen > .picture > .text-wrapper {
+	padding-bottom: 10px;
+	padding-left: 20px;
+	font-size: 2em;
+	color: white;
+}
+
+.blue-text {
+	color: #76daff;
+}
+
+.mid-screen-wrapper > .mid-screen > .picture img {
+	width: 600px;
+	height: 600px;
+}

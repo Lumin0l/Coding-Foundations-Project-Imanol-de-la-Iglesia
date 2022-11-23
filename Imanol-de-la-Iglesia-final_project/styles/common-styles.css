@@ -1,0 +1,11 @@
+/* 
+
+General Font and Margin
+
+*/
+
+body {
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	background-image: linear-gradient(to bottom right, rgb(71, 71, 83), rgb(8, 8, 8));
+}
